@@ -1,0 +1,278 @@
+@font-face {
+ font-family: Georgia;
+ src: url("Georgia.eot")  
+}
+@font-face {
+ font-family: Georgia;
+ src: url("Georgia.ttf")  
+}
+
+@font-face {
+ font-family: Georgia-italic;
+ src: url("georgia italic.eot")  
+}
+@font-face {
+ font-family: Georgia-italic;
+ src: url("georgia italic.ttf") 
+}
+
+.container{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.header{
+	width: 101%;
+	background: url("header_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+}
+.hd1 h6{
+	padding: 40px 5px;
+	font-family: Georgia-italic;
+	color: #686868;	
+	font-size: 16px;
+}
+.hd2 ul{
+	list-style: none;
+	padding-top: 40px;
+	padding-left: 60px;
+}
+.hd2 ul li{
+	display: inline-block;
+	padding: 7px;
+
+}
+
+/*END OF HEADER*/
+
+.slider{
+	margin-top: -300px;
+	margin-left: 8%;
+	width: 84%;
+}
+#carousel-example-generic ol{
+	margin-top: 5px;
+	padding-top: 20px;
+}
+.carousel-inner img{
+	width: 100%;
+	outline: 1px solid #dddddd;
+    outline-offset: -12px;
+}
+.carousel{
+	position: relative;
+}
+.carousel-indicators {
+    bottom: -38px;
+    position: absolute;
+}
+.carousel-indicators .active {
+	width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #959595;
+    border: 1px solid #959595;
+}
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    background-color: #dddddd;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-indent: -999px;
+}
+/*END OF SLIDER*/
+
+.section3{
+	font-family: Georgia;
+	padding: 1% 10%;
+	text-align: justify;
+	color: #444343;
+}
+.section3_1 h4{
+	font-size: 24px;
+	text-align: center;
+}
+.section3_1 h1{
+	font-size: 60px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+.section3_2{
+	padding-left: 20px;
+}
+.content{
+	padding: 0;
+}
+.content h4 img{
+	padding-bottom: 3px;
+}
+.contentcontent h4 span{
+	font-size: 22px;
+	padding-left: 8px;
+}
+.content p{
+	font-size: 14px;
+	color: #828282;
+}
+/*END OF SECTION 3*/
+
+.section4{
+	width: 101%;
+	background: url("bg2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 3% 7%;
+	font-family: Georgia;
+}
+.section4_1{
+	padding: 0;
+}
+.sec4{
+	height: 8%;
+}
+#pic1{
+	float: left;
+}
+#pic2{
+	float: right;
+}
+.col img{
+	padding: 30px 15px;
+}
+.section4_2{
+	padding-top: 30px;
+	padding-left: 30px;
+}
+.section4_2 img{
+	width: 100%;
+	position: relative;
+}
+.paragraph{
+	padding: 0;
+	height: 130px;
+	position: absolute;
+    bottom: 0;
+    width: 92%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.paragraph p{
+	padding: 5% 20%;
+	color: white;
+}
+/*END OF SECTION 4*/
+
+.section5{
+	padding: 0 8%;
+}
+.section5_1{
+	font-family: Georgia-italic;
+
+}
+.form-horizontal{
+	width: 100%;
+}
+.fm{
+	border: 0;
+	padding: 12px;
+	width: 94%;
+	position: relative;
+}
+.fm img{
+	position: absolute;
+	top: 30px;
+	left: 25px;
+}
+
+.form-group{
+	border: 0;
+}
+.form-group input{
+	width: 100%;
+	height: 50px;
+	padding-left: 40px;
+	background-color: #ebebeb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form-horizontal textarea{
+	padding: 0;
+	width: 94%;
+	margin-top: 30px;
+	background-color: #ebebeb;
+    border-radius: 5px;
+}
+.form-horizontal button{
+    background: #dddddd; 
+    border-radius: 5px;
+    margin-top: 40px;
+    width: 30%;
+    height: 50px;
+   	font-family: Georgia;
+    font-weight: bold;
+    color: #7f7f7f;
+    font-size: 20px;
+}
+.section5_2{
+	padding: 8px 0;
+}
+.author{
+	padding-left: 30px;
+	font-family: Georgia;
+	color: #a1a1a1;
+}
+.author h2{
+	font-size: 18px;
+	color: #737070;
+}
+.ar1{
+	padding-top: 20px;
+	color: #a1a1a1;
+	font-family: georgia-italic;
+	font-size: 15px; 
+}
+.email{
+	padding-bottom: 20px;
+}
+.email span{
+	color: #737070;
+}
+.connect{
+	color: #737070;
+}
+.connect span{
+	font-family: georgia;
+	color: #a1a1a1;
+}
+/*END OF SECTION 5*/
+
+.footer{
+	padding: 3% 9%;
+}
+.footer img{
+	width: 100%;
+}
+.right {
+	padding-top: 30px;
+	padding-left: 0;
+	font-family: georgia;
+	font-size: 12px;
+	color: #737070;
+}
+.logo ul{
+	list-style: none;
+	padding-top: 25px;
+	padding-left: 140px;
+}
+.logo ul li{
+	display: inline-block;
+	padding: 5px;
+
+}
+/*END OF FOOETR*/
+
+
